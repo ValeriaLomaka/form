@@ -1,0 +1,194 @@
+/* body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+input, textarea {
+  padding: 8px;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+textarea {
+  resize: none;
+} */
+
+body{
+    margin: 0 auto;
+}
+
+.container{
+    width: 1219px;
+     margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.main-section{
+    padding-top: 45px;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+   gap:34px;
+   align-items: baseline;
+    justify-content: flex-end;
+    margin: 0;
+    padding-left: 0;
+}
+
+.list-links{
+text-decoration: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 1.18;
+line-height: 19px;
+color: #B8BECD;
+padding: 20px;
+}
+
+.btn{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 4 ;
+display: flex;
+align-items: center;
+cursor: pointer;
+
+color: #FB8F1D;
+border: 1px solid #FB8F1D;
+border-radius: 8px;
+}
+
+.title{
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 1.25;
+margin-top: 105px;
+margin-bottom: 50px;
+color: #202336;
+}
+
+.text{
+    
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 1.7;
+color: #7D7987;
+max-width: 450px;
+}
+
+.img{
+    display: block;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 500ms linear, visibility 500ms linear;
+}
+
+.backdrop.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 96vw;
+  max-width: 450px;
+  height: 40vh;
+  max-height: 610px;
+  padding: 40px;
+  background-color: #ffffff;
+    /* background-color: rgb(4, 155, 115); */
+}
+
+.close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  /* border-color: rgba(4, 155, 115, 0.564); */
+  border-color: rgb(134 207 187 / 51%);
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+textarea{
+   width: 100%;
+   resize: none;
+}
+
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    max-width: 355px;
+    max-height: 580px;
+  }
+}
+
+/**
+  |============================
+  | form
+  |============================
+*/
+.login-form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+.login-form label {
+  margin-bottom: 16px;
+}
+
+.login-form input,
+.login-form button {
+  width: 100%;
+  padding: 4px;
+  /* font: inherit; */
+  font-size: 15px;
+}
+
+.submit-btn{
+    background-color: rgba(4, 155, 115, 0.482);
+    /* background-color: #ffffff; */
+    border-color: transparent;
+    border-radius: 4px;
+    /* font-size: 20px; */
+}
