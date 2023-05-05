@@ -55,6 +55,13 @@ color: #B8BECD;
 padding: 20px;
 }
 
+
+
+.list-links:hover {
+     color: #16a49d;
+}
+
+
 .btn{
     font-family: 'Inter';
 font-size: 15px;
