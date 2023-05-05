@@ -57,14 +57,12 @@ padding: 20px;
 
 .btn{
     font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
 font-size: 15px;
 line-height: 4 ;
 display: flex;
 align-items: center;
 cursor: pointer;
-
+max-height: 45px;
 color: #FB8F1D;
 border: 1px solid #FB8F1D;
 border-radius: 8px;
@@ -131,7 +129,7 @@ max-width: 450px;
   max-height: 610px;
   padding: 40px;
   background-color: #ffffff;
-    /* background-color: rgb(4, 155, 115); */
+  border-radius: 25px;
 }
 
 .close-btn {
